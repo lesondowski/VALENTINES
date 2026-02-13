@@ -68,7 +68,7 @@ export default function ValentinesProposal() {
       // Change step after 5 seconds
       const timer = setTimeout(() => {
         setStep((prevStep) => prevStep + 1);
-      }, 5000);
+      }, 10000);
 
       return () => clearTimeout(timer);
     }
@@ -85,25 +85,25 @@ export default function ValentinesProposal() {
         {step === 0 && (
           <motion.h2
             key="step-0"
-            className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            className={`text-4xl font-semibold text-center mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Giỏi quá ta! em giải xong rùi nèeeeeee!
           </motion.h2>
         )}
         {step === 1 && (
           <motion.h2
             key="step-1"
-            className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            className={`text-4xl font-semibold text-center mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 3 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            I have a surprise for you!
+            Mặc dù anh không ở kế bên em vào lúc này nhưng anh chúc em một ngày Valentines thật là hạnh phúc. Anh chúc em sẽ tìm được một công việc mới tốt hơn nè, mọi dự định của em trong năm tới đều thành công nè. Chúc em mãi vẫn cứ yêu anh nhó chụt chụt. Anh sẽ về sớm thôi đừng buồn nha. 
           </motion.h2>
         )}
         {step === 2 && (
@@ -132,7 +132,7 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Will you be my Valentine?
+              Anh trong mắt em lúc nào cũng đẹp trai dù cho em có bảo anh xấu?
             </h2>
             <Image
               src="/sad_hamster.png"
@@ -145,7 +145,7 @@ export default function ValentinesProposal() {
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 onClick={handleYesClick}
               >
-                Yes, I will! 🥰
+                Đúm gòi, hí hí
               </button>
               <button
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-gray-500 to-gray-600 rounded-xl hover:from-gray-600 hover:to-gray-700 transform hover:scale-95 transition-all duration-300 shadow-lg"
@@ -161,7 +161,7 @@ export default function ValentinesProposal() {
                 onMouseEnter={() => setPosition(getRandomPosition())}
                 onClick={() => setPosition(getRandomPosition())}
               >
-                No, I won&apos;t 😢
+                Hong, xấu chó mà hay bày đặt quá
               </button>
             </div>
           </motion.div>
@@ -169,14 +169,20 @@ export default function ValentinesProposal() {
         {step === 3 && (
           <motion.div
             key="step-3"
-            className={`text-4xl font-semibold mb-4 flex flex-col justify-center items-center ${playfairDisplay.className}`}
+            className={`text-4xl font-semibold mb-4 flex flex-col justify-center items-center w-[80%] ${playfairDisplay.className}`}
             transition={{ duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            <h2
+              className={`text-3xl font-semibold p-[50px] mb-8 ${playfairDisplay.className}`}
+            >
+            ❤️Cảm ơn em vì đã ở bên anh! Chíu chíu Pặc Pặc💜
+            </h2>
+            <p className="text-sm  text-center mt-4 ">Mặc dù anh không ở kế bên em vào lúc này nhưng anh chúc em một ngày Valentines thật là hạnh phúc. Anh chúc em sẽ tìm được một công việc mới tốt hơn nè, mọi dự định của em trong năm tới đều thành công nè. Chúc em mãi vẫn cứ yêu anh nhó chụt chụt. Đợi anh nhó, anh sẽ đi lẹ lẹ để mình đi đà lạt với nhau nè. Mãi iu em hẹ hẹ hẹ hẹ. Tặng em con mèo cute đáng iu nè á hí hí </p>
+            <p className="text-sm  text-center mt-4 ">😚Tặng em con mèo cute đáng iu nè á hí hí 😘</p>
+
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"
