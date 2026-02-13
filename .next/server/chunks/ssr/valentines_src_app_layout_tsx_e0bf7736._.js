@@ -1,3 +1,0 @@
-module.exports=[11215,a=>{"use strict";var b=a.i(89692);function c({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})}a.s(["default",()=>c,"metadata",0,{title:"Valentines: A Romantic Card Game with a Surprise Proposal",description:"Play a unique Valentine's card game. Complete the collection to reveal a romantic proposal!",keywords:["Valentine's card game","romantic proposal game","photo card challenge","Valentine's Day surprise","couples game","valentine's day game","proposal game"]}])}];
-
-//# sourceMappingURL=valentines_src_app_layout_tsx_e0bf7736._.js.map

@@ -101,7 +101,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\AUDIT_CUA_LEE_JONG_SON\\Tengroup",
+    "outputFileTracingRoot": "D:\\AUDIT_CUA_LEE_JONG_SON\\Tengroup\\valentines",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -294,12 +294,12 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "D:\\AUDIT_CUA_LEE_JONG_SON\\Tengroup"
+      "root": "D:\\AUDIT_CUA_LEE_JONG_SON\\Tengroup\\valentines"
     },
     "distDirRoot": ".next"
   },
   "appDir": "D:\\AUDIT_CUA_LEE_JONG_SON\\Tengroup\\valentines",
-  "relativeAppDir": "valentines",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",
